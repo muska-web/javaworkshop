@@ -5,7 +5,7 @@ public class RecursiveFunction {
 
     void showArray(int[] array){
         System.out.println(array[count]);
-        if (count<array.length){
+        if (count<array.length-1){
             count++;
             showArray(array);
         }
